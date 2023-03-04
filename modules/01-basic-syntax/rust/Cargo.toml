@@ -5,5 +5,20 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-[dependencies]
-colored = "2.0.0"
+[[example]]
+name = "compound_types"
+
+[[example]]
+name = "references"
+
+[[example]]
+name = "slices"
+
+[[example]]
+name = "functions"
+
+[[example]]
+name = "types_inference"
+
+[[example]]
+name = "scopes_shadowing"
