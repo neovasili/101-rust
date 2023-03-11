@@ -1,0 +1,28 @@
+[package]
+name = "error-handling"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+thiserror = "1.0.8"  # https://docs.rs/thiserror/
+anyhow = "1.0.69"  # https://docs.rs/anyhow/latest/anyhow/
+
+[[example]]
+name = "panics"
+
+[[example]]
+name = "structured_error"
+
+[[example]]
+name = "propagation"
+
+[[example]]
+name = "deriving"
+
+[[example]]
+name = "dynamic_errors"
+
+[[example]]
+name = "errors_context"

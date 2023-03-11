@@ -1,0 +1,21 @@
+[package]
+name = "ownership"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[example]]
+name = "move_semantics"
+
+[[example]]
+name = "move_in_functions"
+
+[[example]]
+name = "copy_clone"
+
+[[example]]
+name = "borrowing"
+
+[[example]]
+name = "lifetime"
