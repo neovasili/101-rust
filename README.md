@@ -82,6 +82,10 @@ Or to run the whole set of unit tests and integration tests:
 cargo test
 ```
 
+## Bonus track
+
+You can find a small demonstration project in [bonus-track](./bonus-track/bonus-track.md) folder.
+
 ## References
 
 - [Oficial website](https://www.rust-lang.org/)

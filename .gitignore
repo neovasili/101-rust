@@ -3,3 +3,13 @@
 __pycache__
 .venv
 node_modules
+bonus-track/build/
+
+*.js
+!jest.config.js
+*.d.ts
+node_modules
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
